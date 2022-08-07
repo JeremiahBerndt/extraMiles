@@ -1,17 +1,13 @@
-import React from 'react';
 import './app.css';
 import VehicleSelectBox from '../vehicleSelectBox/vehicleSelectBox';
-import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
-
-const queryClient = new QueryClient()
+import Title from '../title/title';
 
 function App() {
   return (
-    <QueryClientProvider client={queryClient}>
-      <div className="app">
-        <VehicleSelectBox />
-      </div>
-    </QueryClientProvider>
+    <div className="app">
+      <Title />
+      <VehicleSelectBox />
+    </div>
   );
 }
 
