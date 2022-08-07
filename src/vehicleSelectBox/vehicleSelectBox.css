@@ -1,0 +1,7 @@
+.vehicleSelectBox {
+  height: 60px;
+  width: max-content;
+  display: flex;
+  justify-content: space-between;
+  border-top: solid 4px rgb(242, 97, 0);
+}
